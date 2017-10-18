@@ -1,0 +1,340 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chao"
+    tools:context="com.example.administrator.fregment05.fregment.Fragment05">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/beijinglu"
+        android:weightSum="1"
+        android:layout_weight="15.9">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/lianxianglu"
+                android:layout_width="20dp"
+                android:layout_height="150dp"
+                android:background="#ffffff"
+                android:text="联想路"
+                android:gravity="center"
+                android:layout_marginLeft="130dp"/>
+            <TextView
+                android:id="@+id/yiyuanlu"
+                android:layout_width="20dp"
+                android:layout_height="145dp"
+                android:background="#ffffff"
+                android:text="医院路"
+                android:gravity="center"
+                android:layout_marginLeft="130dp"
+                android:layout_alignParentBottom="true"/>
+            <TextView
+                android:id="@+id/zhonglu"
+                android:layout_width="130dp"
+                android:layout_height="20dp"
+                android:background="#ffffff"
+                android:layout_marginTop="130dp"/>
+            <TextView
+                android:id="@+id/huanchenkuaisulu1"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/fg_lu"
+                tools:text="环城快速路"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/huanchenkuaisulu2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/fg_lu"
+                tools:text="环城快速路"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"/>
+            <TextView
+                android:id="@+id/huanchenkuaisulu3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/fg_lu"
+                tools:text="环城快速路"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/huanchengaosu"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/fg_lu"
+                tools:text="环城高速"
+                android:gravity="center"
+                android:layout_alignParentRight="true"/>
+            <TextView
+                android:id="@+id/xueyuanlu"
+                android:layout_width="20dp"
+                android:layout_height="135dp"
+                android:background="#ffffff"
+                android:text="学院路"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"/>
+            <TextView
+                android:id="@+id/xinfulu"
+                android:layout_width="20dp"
+                android:layout_height="140dp"
+                android:background="#ffffff"
+                android:text="幸福路"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/xueyuanlu"
+                android:layout_alignStart="@+id/xueyuanlu" />
+            <TextView
+                android:id="@+id/tinchechang"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                tools:text="停车场"
+                android:gravity="center"
+                android:layout_marginRight="65dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="285dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/fg_biao"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButton_sguxin"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="刷新" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.40"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="data"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/textView_week"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="week"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_wendu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="TextView"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView_shidu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="TextView"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView_pm2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="TextView"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="169dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="道路拥堵示意图"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.40"
+                            android:text="畅通"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.32"
+                            android:background="#6ab82e" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.30"
+                            android:text="缓行"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#ece93a" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.27"
+                            android:text="一般拥堵"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#f49b25" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.30"
+                            android:text="中度拥堵"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#e33532" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.30"
+                            android:text="严重拥堵"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#b01e23" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="153dp"
+                android:src="@drawable/jincha" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
